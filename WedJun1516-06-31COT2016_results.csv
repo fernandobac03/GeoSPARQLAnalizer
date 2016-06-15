@@ -1,0 +1,12 @@
+QUERY,/sparql,/Query,/select
+boundary.sparql,1055,44,41
+buffer.sparql,289,20,23
+convexHull.sparql,44,22,20
+difference.sparql,179,97,127
+distance.sparql,27,9,37
+envelope.sparql,34,15,19
+getSRID.sparql,19,21,18
+intersection.sparql,51,31,43
+relate.sparql,852,9,282
+symDifference.sparql,53,27,30
+union.sparql,117,35,74

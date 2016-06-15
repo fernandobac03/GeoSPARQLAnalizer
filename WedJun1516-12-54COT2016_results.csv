@@ -1,0 +1,9 @@
+QUERY,http://localhost:8080/parliament/sparql,http://localhost:8080/strabon/Query,http://localhost:8080/marmotta/sparql/select
+sfContains,28162,5004,6812
+sfCrosses,762,95870,129
+sfDisjoint,853,98867,103
+sfEquals,44,141,61
+sfIntersects,712,2473,72
+sfOverlaps,22034,1854,1546
+sfTouches,3,3,3
+sfWithin,23528,110,230

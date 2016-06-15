@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="runtestanalizer.js"></script>
+        <script type="text/javascript">
+            function runtest()
+            {
+                runtestanalizer();
+            }
+        </script>
+    </head>
+
+
+
+
+    <body>
+
+    <center>
+        <div class="col-md-12">GeoSPARQL ANALIZER</div>
+    </center>
+
+
+    <form> 
+        <table>
+            <tr>
+                <td>ENDPOINT URL:</td>
+                <td><input  id="endpoint" width="200" size="50" type="text" value="http://localhost:8080/marmotta/sparql/select"/></td>
+            </tr>
+        </table>
+
+        <button type="button"  onclick="runtest()"  value="Activar Función">RUN TEST</button>
+        <div id="imgloading" style="visibility: hidden">
+            <img src="img/ajax-loader-big.gif" alt="Loading Authors" height="120" width="120">
+            <p> Please wait until the reply message</p>
+        </div>
+    </form>
+</body>
+</html>
